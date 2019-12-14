@@ -62,7 +62,7 @@ m-fe-rm 内置了 Gitlab CI 的完整流程，请参考 .gitlab-ci.yml 及 scrip
 
 - [vue-snippets](https://github.com/wx-chevalier/vue-snippets): Vue Snippets(.js/.ts), about design patterns/techniques used while developing with Vue and JavaScript/TypeScript.
 
-- [m-fe-husky-config](https://github.com/wx-chevalier/m-fe-configs)：Common Dev Configs(ESLint, Prettier, Husky, etc.) for Micro-Frontend Apps
+- [m-fe-configs](https://github.com/wx-chevalier/m-fe-configs)：Common Dev Configs(ESLint, Prettier, Husky, etc.) for Micro-Frontend Apps
 
 - [m-fe-rm](https://github.com/wx-chevalier/m-fe-rm): Micro-Frontend boilerplate with React & TypeScript & Webpack, for complicated cooperative applications. | 微前端项目模板
 
