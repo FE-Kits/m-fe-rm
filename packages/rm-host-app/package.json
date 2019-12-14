@@ -23,7 +23,7 @@
     "build": "cross-env NODE_ENV=production webpack --config ./scripts/webpack/webpack.config.prod.js -p",
     "dev:server": "webpack-dev-server --config ./scripts/webpack/webpack.config.dev.js --hot --progress",
     "dev:watch": "npm-watch",
-    "dev:no-sock": "cross-env NODE_ENV=development webpack -d --config ./scripts/webpack/webpack.config.dev.no-sock.js --progress",
+    "dev:no-sock": "cross-env webpack --config ./scripts/webpack/webpack.config.dev.no-sock.js --progress",
     "lint": "run-p lint:*",
     "lint:es": "cross-env PARSER_NO_WATCH=true eslint . --cache --ext js,md,ts,tsx -f friendly --max-warnings 10",
     "lint:style": "stylelint **/*.less --cache",
